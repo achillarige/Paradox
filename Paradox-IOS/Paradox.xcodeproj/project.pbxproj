@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1831F1891CB09A3E0006E80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831F1881CB09A3E0006E80F /* AppDelegate.swift */; };
+		1831F18E1CB09A3E0006E80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831F18C1CB09A3E0006E80F /* Main.storyboard */; };
+		1831F1901CB09A3E0006E80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1831F18F1CB09A3E0006E80F /* Assets.xcassets */; };
+		1831F1931CB09A3E0006E80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831F1911CB09A3E0006E80F /* LaunchScreen.storyboard */; };
+		1831F19E1CB09A3E0006E80F /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831F19D1CB09A3E0006E80F /* loginTests.swift */; };
+		18507E311CB0A39800E9E7D6 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18507E301CB0A39800E9E7D6 /* BaseService.swift */; };
+		18507E351CB0A71600E9E7D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18507E341CB0A71600E9E7D6 /* LoginViewController.swift */; };
+		18507E371CB0A75F00E9E7D6 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18507E361CB0A75F00E9E7D6 /* CreateAccountViewController.swift */; };
+		D21407A1F3789701C1911CDB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FB0FF3BA519D8D4863471A /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1831F19A1CB09A3E0006E80F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1831F17D1CB09A3D0006E80F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1831F1841CB09A3D0006E80F;
+			remoteInfo = login;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BA1BEA913FA52CCE8A05EB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1831F1851CB09A3E0006E80F /* Paradox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paradox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1831F1881CB09A3E0006E80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1831F18D1CB09A3E0006E80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1831F18F1CB09A3E0006E80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1831F1921CB09A3E0006E80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1831F1941CB09A3E0006E80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1831F1991CB09A3E0006E80F /* Paradox.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paradox.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1831F19D1CB09A3E0006E80F /* loginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTests.swift; sourceTree = "<group>"; };
+		1831F19F1CB09A3E0006E80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18507E301CB0A39800E9E7D6 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		18507E341CB0A71600E9E7D6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18507E361CB0A75F00E9E7D6 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		40FB0FF3BA519D8D4863471A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4782C6BDEA78332ADF463B11 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1831F1821CB09A3D0006E80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21407A1F3789701C1911CDB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1831F1961CB09A3E0006E80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1831F17C1CB09A3D0006E80F = {
+			isa = PBXGroup;
+			children = (
+				1831F1871CB09A3E0006E80F /* login */,
+				1831F19C1CB09A3E0006E80F /* loginTests */,
+				1831F1861CB09A3E0006E80F /* Products */,
+				B195F878C455B4F3B3308F2C /* Pods */,
+				56192B8C5F274B7A496199EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1831F1861CB09A3E0006E80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1831F1851CB09A3E0006E80F /* Paradox.app */,
+				1831F1991CB09A3E0006E80F /* Paradox.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1831F1871CB09A3E0006E80F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				1831F1881CB09A3E0006E80F /* AppDelegate.swift */,
+				18507E301CB0A39800E9E7D6 /* BaseService.swift */,
+				18507E341CB0A71600E9E7D6 /* LoginViewController.swift */,
+				18507E361CB0A75F00E9E7D6 /* CreateAccountViewController.swift */,
+				1831F18C1CB09A3E0006E80F /* Main.storyboard */,
+				1831F18F1CB09A3E0006E80F /* Assets.xcassets */,
+				1831F1911CB09A3E0006E80F /* LaunchScreen.storyboard */,
+				1831F1941CB09A3E0006E80F /* Info.plist */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		1831F19C1CB09A3E0006E80F /* loginTests */ = {
+			isa = PBXGroup;
+			children = (
+				1831F19D1CB09A3E0006E80F /* loginTests.swift */,
+				1831F19F1CB09A3E0006E80F /* Info.plist */,
+			);
+			path = loginTests;
+			sourceTree = "<group>";
+		};
+		56192B8C5F274B7A496199EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40FB0FF3BA519D8D4863471A /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B195F878C455B4F3B3308F2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05BA1BEA913FA52CCE8A05EB /* Pods.debug.xcconfig */,
+				4782C6BDEA78332ADF463B11 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1831F1841CB09A3D0006E80F /* Paradox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1831F1A21CB09A3E0006E80F /* Build configuration list for PBXNativeTarget "Paradox" */;
+			buildPhases = (
+				BB753698416744EF0394F0B0 /* Check Pods Manifest.lock */,
+				1831F1811CB09A3D0006E80F /* Sources */,
+				1831F1821CB09A3D0006E80F /* Frameworks */,
+				1831F1831CB09A3D0006E80F /* Resources */,
+				1C26B80D917B681790C117A7 /* Embed Pods Frameworks */,
+				028B7B1BC47E9413DB2D820C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paradox;
+			productName = login;
+			productReference = 1831F1851CB09A3E0006E80F /* Paradox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1831F1981CB09A3E0006E80F /* ParadoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1831F1A51CB09A3E0006E80F /* Build configuration list for PBXNativeTarget "ParadoxTests" */;
+			buildPhases = (
+				1831F1951CB09A3E0006E80F /* Sources */,
+				1831F1961CB09A3E0006E80F /* Frameworks */,
+				1831F1971CB09A3E0006E80F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1831F19B1CB09A3E0006E80F /* PBXTargetDependency */,
+			);
+			name = ParadoxTests;
+			productName = loginTests;
+			productReference = 1831F1991CB09A3E0006E80F /* Paradox.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1831F17D1CB09A3D0006E80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ananth Chillarige";
+				TargetAttributes = {
+					1831F1841CB09A3D0006E80F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1831F1981CB09A3E0006E80F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1831F1841CB09A3D0006E80F;
+					};
+				};
+			};
+			buildConfigurationList = 1831F1801CB09A3D0006E80F /* Build configuration list for PBXProject "Paradox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1831F17C1CB09A3D0006E80F;
+			productRefGroup = 1831F1861CB09A3E0006E80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1831F1841CB09A3D0006E80F /* Paradox */,
+				1831F1981CB09A3E0006E80F /* ParadoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1831F1831CB09A3D0006E80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1831F1931CB09A3E0006E80F /* LaunchScreen.storyboard in Resources */,
+				1831F1901CB09A3E0006E80F /* Assets.xcassets in Resources */,
+				1831F18E1CB09A3E0006E80F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1831F1971CB09A3E0006E80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		028B7B1BC47E9413DB2D820C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C26B80D917B681790C117A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB753698416744EF0394F0B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1831F1811CB09A3D0006E80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18507E371CB0A75F00E9E7D6 /* CreateAccountViewController.swift in Sources */,
+				18507E351CB0A71600E9E7D6 /* LoginViewController.swift in Sources */,
+				1831F1891CB09A3E0006E80F /* AppDelegate.swift in Sources */,
+				18507E311CB0A39800E9E7D6 /* BaseService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1831F1951CB09A3E0006E80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1831F19E1CB09A3E0006E80F /* loginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1831F19B1CB09A3E0006E80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1831F1841CB09A3D0006E80F /* Paradox */;
+			targetProxy = 1831F19A1CB09A3E0006E80F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1831F18C1CB09A3E0006E80F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1831F18D1CB09A3E0006E80F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1831F1911CB09A3E0006E80F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1831F1921CB09A3E0006E80F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1831F1A01CB09A3E0006E80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1831F1A11CB09A3E0006E80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1831F1A31CB09A3E0006E80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BA1BEA913FA52CCE8A05EB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = achillarige.login;
+				PRODUCT_NAME = Paradox;
+			};
+			name = Debug;
+		};
+		1831F1A41CB09A3E0006E80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4782C6BDEA78332ADF463B11 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = achillarige.login;
+				PRODUCT_NAME = Paradox;
+			};
+			name = Release;
+		};
+		1831F1A61CB09A3E0006E80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = loginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = achillarige.loginTests;
+				PRODUCT_NAME = Paradox;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paradox.app/Paradox";
+			};
+			name = Debug;
+		};
+		1831F1A71CB09A3E0006E80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = loginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = achillarige.loginTests;
+				PRODUCT_NAME = Paradox;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paradox.app/Paradox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1831F1801CB09A3D0006E80F /* Build configuration list for PBXProject "Paradox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1831F1A01CB09A3E0006E80F /* Debug */,
+				1831F1A11CB09A3E0006E80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1831F1A21CB09A3E0006E80F /* Build configuration list for PBXNativeTarget "Paradox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1831F1A31CB09A3E0006E80F /* Debug */,
+				1831F1A41CB09A3E0006E80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1831F1A51CB09A3E0006E80F /* Build configuration list for PBXNativeTarget "ParadoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1831F1A61CB09A3E0006E80F /* Debug */,
+				1831F1A71CB09A3E0006E80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1831F17D1CB09A3D0006E80F /* Project object */;
+}
