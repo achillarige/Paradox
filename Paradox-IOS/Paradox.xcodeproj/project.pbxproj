@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182B0BD61CB4DE3E00D081B1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182B0BD41CB4DE3E00D081B1 /* TableViewCell.swift */; };
+		182B0BD71CB4DE3E00D081B1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182B0BD51CB4DE3E00D081B1 /* TableViewCell.xib */; };
 		1831F1891CB09A3E0006E80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831F1881CB09A3E0006E80F /* AppDelegate.swift */; };
 		1831F18E1CB09A3E0006E80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1831F18C1CB09A3E0006E80F /* Main.storyboard */; };
 		1831F1901CB09A3E0006E80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1831F18F1CB09A3E0006E80F /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		05BA1BEA913FA52CCE8A05EB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		182B0BD41CB4DE3E00D081B1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		182B0BD51CB4DE3E00D081B1 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		1831F1851CB09A3E0006E80F /* Paradox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paradox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1831F1881CB09A3E0006E80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1831F18D1CB09A3E0006E80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				1831F18F1CB09A3E0006E80F /* Assets.xcassets */,
 				1831F1911CB09A3E0006E80F /* LaunchScreen.storyboard */,
 				1831F1941CB09A3E0006E80F /* Info.plist */,
+				182B0BD41CB4DE3E00D081B1 /* TableViewCell.swift */,
+				182B0BD51CB4DE3E00D081B1 /* TableViewCell.xib */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -211,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1831F1931CB09A3E0006E80F /* LaunchScreen.storyboard in Resources */,
+				182B0BD71CB4DE3E00D081B1 /* TableViewCell.xib in Resources */,
 				1831F1901CB09A3E0006E80F /* Assets.xcassets in Resources */,
 				1831F18E1CB09A3E0006E80F /* Main.storyboard in Resources */,
 			);
@@ -278,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182B0BD61CB4DE3E00D081B1 /* TableViewCell.swift in Sources */,
 				18507E371CB0A75F00E9E7D6 /* CreateAccountViewController.swift in Sources */,
 				18507E351CB0A71600E9E7D6 /* LoginViewController.swift in Sources */,
 				1831F1891CB09A3E0006E80F /* AppDelegate.swift in Sources */,
